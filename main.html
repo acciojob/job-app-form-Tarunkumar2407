@@ -11,35 +11,48 @@
     <script type="text/javascript" src="./script.js">
     </script>
 	<form>
-	<div>
-		<label for="Name">Name*</label>
-	    <input type="text" placeholder="user name" id="name" required>
-	</div>
-	<div>
-		<label for="Email">Email*</label>
-	    <input type="email" placeholder="email" id="email" required>
-	</div>
-	<div>
-		<label for="Gender" required>Gender*</label>
-		<label for="Gender">Male</label>
-	    <input type="radio" id="male" name="gender" required>
+	    <div>
+		    <label for="Name">Name*</label>
+	        <input type="text" placeholder="User name" id="name" required>
+	    </div>
+	    <div>
+		    <label for="Email">Email*</label>
+	        <input type="email" placeholder="abc@gmail.com" id="email" required>
+	    </div>
+	    <div>
+		    <label for="Gender" required>Gender*</label>
+		    <label for="Gender">Male</label>
+	        <input type="radio" id="male" name="gender" required>
 
-		<label for="Gender">Female</label>
-	    <input type="radio" id="female" name="gender" required>
+		    <label for="Gender">Female</label>
+	        <input type="radio" id="female" name="gender" required>
 
-		<label for="Gender">Transgender</label>
-	    <input type="radio" id="transgender" name="gender" required>
-	</div>
-	<div>
-		<label>Laptop Brands:</label>
-		<select name="Laptop Brands" id="laptop">
-			<option value ="Apple">Apple</option>
-			<option value ="Asus">Asus</option>
-			<option value ="HP">HP</option>
-	</div>
-	<div>
-		<label for="Age">Age</label>
-	</div>
+		    <label for="Gender">Transgender</label>
+	        <input type="radio" id="transgender" name="gender" required>
+	    </div>
+	    <div>
+		    <label>Laptop Brands:</label>
+	   	         <select name="Laptop Brands" id="laptop">
+			         <option value ="Apple">Apple</option>
+			         <option value ="Asus">Asus</option>
+			         <option value ="HP">HP</option>
+				 </select>
+	    </div>
+		<div>
+		    <label for="Age">Age*</label>
+		    <input type="text" placeholder="Enter your age" id="age" >
+	    </div>
+        <div>
+		    <label for="DOB">DOB*</label>
+		    <input type="date" id="dob" required>
+	    </div>
+		<div>
+			<label for="Password">Password*</label>
+			<input type="password" id="password" placeholder="Enter your password" required>
+		</div>
+		<div>
+			<input type="submit" value="submit">
+		</div>
 	</form>
 </body>
 
